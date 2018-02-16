@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A900E4D9CA950BE81D7118A7 /* Pods_MelodySkyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983AAD8744C55C4D467B3373 /* Pods_MelodySkyChat.framework */; };
 		F9CC44E4203625B4003CCD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC44E3203625B4003CCD65 /* AppDelegate.swift */; };
 		F9CC44E6203625B4003CCD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC44E5203625B4003CCD65 /* ViewController.swift */; };
 		F9CC44E9203625B4003CCD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CC44E7203625B4003CCD65 /* Main.storyboard */; };
 		F9CC44EB203625B4003CCD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CC44EA203625B4003CCD65 /* Assets.xcassets */; };
 		F9CC44EE203625B4003CCD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CC44EC203625B4003CCD65 /* LaunchScreen.storyboard */; };
+		F9CC44F620362C9D003CCD65 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC44F520362C9D003CCD65 /* Star.swift */; };
+		F9CC44F820362CD6003CCD65 /* PickMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC44F720362CD6003CCD65 /* PickMessagesViewController.swift */; };
+		F9CC45592036447B003CCD65 /* AnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC453A2036447A003CCD65 /* AnimationContext.swift */; };
+		F9CC455A2036447B003CCD65 /* AnimationSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC453B2036447A003CCD65 /* AnimationSequence.swift */; };
+		F9CC455B2036447B003CCD65 /* AnimationStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC453C2036447A003CCD65 /* AnimationStep.swift */; };
+		F9CC455C2036447B003CCD65 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC453D2036447A003CCD65 /* AnimationType.swift */; };
+		F9CC455D2036447B003CCD65 /* AnimatorCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC453E2036447A003CCD65 /* AnimatorCoordinator.swift */; };
+		F9CC455E2036447B003CCD65 /* AttachmentConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC453F2036447A003CCD65 /* AttachmentConfigurable.swift */; };
+		F9CC455F2036447B003CCD65 /* BasicChainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45402036447A003CCD65 /* BasicChainable.swift */; };
+		F9CC45602036447B003CCD65 /* BasicConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45412036447A003CCD65 /* BasicConfigurable.swift */; };
+		F9CC45612036447B003CCD65 /* CALayer+AnimateBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45422036447A003CCD65 /* CALayer+AnimateBehavior.swift */; };
+		F9CC45622036447B003CCD65 /* CALayer+DriveAnimationBehaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45432036447A003CCD65 /* CALayer+DriveAnimationBehaviors.swift */; };
+		F9CC45632036447B003CCD65 /* CALayer+Stellar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45442036447A003CCD65 /* CALayer+Stellar.swift */; };
+		F9CC45642036447B003CCD65 /* Chainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45452036447A003CCD65 /* Chainable.swift */; };
+		F9CC45652036447B003CCD65 /* DriveAnimateBehaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45462036447A003CCD65 /* DriveAnimateBehaviors.swift */; };
+		F9CC45662036447B003CCD65 /* DynamicItem+Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45472036447A003CCD65 /* DynamicItem+Behavior.swift */; };
+		F9CC45672036447B003CCD65 /* DynamicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45482036447A003CCD65 /* DynamicItem.swift */; };
+		F9CC45682036447B003CCD65 /* DynamicItemBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45492036447A003CCD65 /* DynamicItemBasic.swift */; };
+		F9CC45692036447B003CCD65 /* DynamicItemGravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC454A2036447A003CCD65 /* DynamicItemGravity.swift */; };
+		F9CC456A2036447B003CCD65 /* GravityConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC454B2036447A003CCD65 /* GravityConfigurable.swift */; };
+		F9CC456B2036447B003CCD65 /* Interpolatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC454C2036447A003CCD65 /* Interpolatable.swift */; };
+		F9CC456C2036447B003CCD65 /* Physical.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC454D2036447A003CCD65 /* Physical.swift */; };
+		F9CC456D2036447B003CCD65 /* SnapConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC454E2036447A003CCD65 /* SnapConfigurable.swift */; };
+		F9CC456E2036447B003CCD65 /* StepControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC454F2036447A003CCD65 /* StepControllable.swift */; };
+		F9CC456F2036447B003CCD65 /* TimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45502036447A003CCD65 /* TimingFunction.swift */; };
+		F9CC45702036447B003CCD65 /* TimingSolvable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45512036447A003CCD65 /* TimingSolvable.swift */; };
+		F9CC45712036447B003CCD65 /* TimingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45522036447A003CCD65 /* TimingType.swift */; };
+		F9CC45722036447B003CCD65 /* UIDynamicBehavior+Commit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45532036447A003CCD65 /* UIDynamicBehavior+Commit.swift */; };
+		F9CC45732036447B003CCD65 /* UIView+AnimateBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45542036447A003CCD65 /* UIView+AnimateBehavior.swift */; };
+		F9CC45742036447B003CCD65 /* UIView+Stellar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45552036447A003CCD65 /* UIView+Stellar.swift */; };
+		F9CC45752036447B003CCD65 /* UnitBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45562036447A003CCD65 /* UnitBezier.swift */; };
+		F9CC45762036447B003CCD65 /* Value+Physical.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45572036447A003CCD65 /* Value+Physical.swift */; };
+		F9CC45772036447B003CCD65 /* Vectorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC45582036447A003CCD65 /* Vectorial.swift */; };
+		F9CC457920366615003CCD65 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CC457820366615003CCD65 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C274EDED1417F58524C9037 /* Pods-MelodySkyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelodySkyChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MelodySkyChat/Pods-MelodySkyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		983AAD8744C55C4D467B3373 /* Pods_MelodySkyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MelodySkyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F92A1984614FC8DBDBD20 /* Pods-MelodySkyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MelodySkyChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MelodySkyChat/Pods-MelodySkyChat.release.xcconfig"; sourceTree = "<group>"; };
 		F9CC44E0203625B4003CCD65 /* MelodySkyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelodySkyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CC44E3203625B4003CCD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9CC44E5203625B4003CCD65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +60,40 @@
 		F9CC44EA203625B4003CCD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9CC44ED203625B4003CCD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9CC44EF203625B4003CCD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CC44F520362C9D003CCD65 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		F9CC44F720362CD6003CCD65 /* PickMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickMessagesViewController.swift; sourceTree = "<group>"; };
+		F9CC453A2036447A003CCD65 /* AnimationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationContext.swift; sourceTree = "<group>"; };
+		F9CC453B2036447A003CCD65 /* AnimationSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationSequence.swift; sourceTree = "<group>"; };
+		F9CC453C2036447A003CCD65 /* AnimationStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationStep.swift; sourceTree = "<group>"; };
+		F9CC453D2036447A003CCD65 /* AnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		F9CC453E2036447A003CCD65 /* AnimatorCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatorCoordinator.swift; sourceTree = "<group>"; };
+		F9CC453F2036447A003CCD65 /* AttachmentConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttachmentConfigurable.swift; sourceTree = "<group>"; };
+		F9CC45402036447A003CCD65 /* BasicChainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicChainable.swift; sourceTree = "<group>"; };
+		F9CC45412036447A003CCD65 /* BasicConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicConfigurable.swift; sourceTree = "<group>"; };
+		F9CC45422036447A003CCD65 /* CALayer+AnimateBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+AnimateBehavior.swift"; sourceTree = "<group>"; };
+		F9CC45432036447A003CCD65 /* CALayer+DriveAnimationBehaviors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+DriveAnimationBehaviors.swift"; sourceTree = "<group>"; };
+		F9CC45442036447A003CCD65 /* CALayer+Stellar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Stellar.swift"; sourceTree = "<group>"; };
+		F9CC45452036447A003CCD65 /* Chainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chainable.swift; sourceTree = "<group>"; };
+		F9CC45462036447A003CCD65 /* DriveAnimateBehaviors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriveAnimateBehaviors.swift; sourceTree = "<group>"; };
+		F9CC45472036447A003CCD65 /* DynamicItem+Behavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DynamicItem+Behavior.swift"; sourceTree = "<group>"; };
+		F9CC45482036447A003CCD65 /* DynamicItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicItem.swift; sourceTree = "<group>"; };
+		F9CC45492036447A003CCD65 /* DynamicItemBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicItemBasic.swift; sourceTree = "<group>"; };
+		F9CC454A2036447A003CCD65 /* DynamicItemGravity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicItemGravity.swift; sourceTree = "<group>"; };
+		F9CC454B2036447A003CCD65 /* GravityConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravityConfigurable.swift; sourceTree = "<group>"; };
+		F9CC454C2036447A003CCD65 /* Interpolatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolatable.swift; sourceTree = "<group>"; };
+		F9CC454D2036447A003CCD65 /* Physical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Physical.swift; sourceTree = "<group>"; };
+		F9CC454E2036447A003CCD65 /* SnapConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapConfigurable.swift; sourceTree = "<group>"; };
+		F9CC454F2036447A003CCD65 /* StepControllable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepControllable.swift; sourceTree = "<group>"; };
+		F9CC45502036447A003CCD65 /* TimingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingFunction.swift; sourceTree = "<group>"; };
+		F9CC45512036447A003CCD65 /* TimingSolvable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingSolvable.swift; sourceTree = "<group>"; };
+		F9CC45522036447A003CCD65 /* TimingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingType.swift; sourceTree = "<group>"; };
+		F9CC45532036447A003CCD65 /* UIDynamicBehavior+Commit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDynamicBehavior+Commit.swift"; sourceTree = "<group>"; };
+		F9CC45542036447A003CCD65 /* UIView+AnimateBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AnimateBehavior.swift"; sourceTree = "<group>"; };
+		F9CC45552036447A003CCD65 /* UIView+Stellar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Stellar.swift"; sourceTree = "<group>"; };
+		F9CC45562036447A003CCD65 /* UnitBezier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitBezier.swift; sourceTree = "<group>"; };
+		F9CC45572036447A003CCD65 /* Value+Physical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Value+Physical.swift"; sourceTree = "<group>"; };
+		F9CC45582036447A003CCD65 /* Vectorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vectorial.swift; sourceTree = "<group>"; };
+		F9CC457820366615003CCD65 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +101,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A900E4D9CA950BE81D7118A7 /* Pods_MelodySkyChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C722157D3B2BD228D01C29F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983AAD8744C55C4D467B3373 /* Pods_MelodySkyChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D462D55EF85A17C0FF39B32B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C274EDED1417F58524C9037 /* Pods-MelodySkyChat.debug.xcconfig */,
+				D40F92A1984614FC8DBDBD20 /* Pods-MelodySkyChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F9CC44D7203625B4003CCD65 = {
 			isa = PBXGroup;
 			children = (
 				F9CC44E2203625B4003CCD65 /* MelodySkyChat */,
 				F9CC44E1203625B4003CCD65 /* Products */,
+				D462D55EF85A17C0FF39B32B /* Pods */,
+				C722157D3B2BD228D01C29F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +146,56 @@
 		F9CC44E2203625B4003CCD65 /* MelodySkyChat */ = {
 			isa = PBXGroup;
 			children = (
+				F9CC45392036447A003CCD65 /* Sources */,
 				F9CC44E3203625B4003CCD65 /* AppDelegate.swift */,
 				F9CC44E5203625B4003CCD65 /* ViewController.swift */,
 				F9CC44E7203625B4003CCD65 /* Main.storyboard */,
+				F9CC44F720362CD6003CCD65 /* PickMessagesViewController.swift */,
+				F9CC44F520362C9D003CCD65 /* Star.swift */,
+				F9CC457820366615003CCD65 /* RoundedButton.swift */,
 				F9CC44EA203625B4003CCD65 /* Assets.xcassets */,
 				F9CC44EC203625B4003CCD65 /* LaunchScreen.storyboard */,
 				F9CC44EF203625B4003CCD65 /* Info.plist */,
 			);
 			path = MelodySkyChat;
+			sourceTree = "<group>";
+		};
+		F9CC45392036447A003CCD65 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F9CC453A2036447A003CCD65 /* AnimationContext.swift */,
+				F9CC453B2036447A003CCD65 /* AnimationSequence.swift */,
+				F9CC453C2036447A003CCD65 /* AnimationStep.swift */,
+				F9CC453D2036447A003CCD65 /* AnimationType.swift */,
+				F9CC453E2036447A003CCD65 /* AnimatorCoordinator.swift */,
+				F9CC453F2036447A003CCD65 /* AttachmentConfigurable.swift */,
+				F9CC45402036447A003CCD65 /* BasicChainable.swift */,
+				F9CC45412036447A003CCD65 /* BasicConfigurable.swift */,
+				F9CC45422036447A003CCD65 /* CALayer+AnimateBehavior.swift */,
+				F9CC45432036447A003CCD65 /* CALayer+DriveAnimationBehaviors.swift */,
+				F9CC45442036447A003CCD65 /* CALayer+Stellar.swift */,
+				F9CC45452036447A003CCD65 /* Chainable.swift */,
+				F9CC45462036447A003CCD65 /* DriveAnimateBehaviors.swift */,
+				F9CC45472036447A003CCD65 /* DynamicItem+Behavior.swift */,
+				F9CC45482036447A003CCD65 /* DynamicItem.swift */,
+				F9CC45492036447A003CCD65 /* DynamicItemBasic.swift */,
+				F9CC454A2036447A003CCD65 /* DynamicItemGravity.swift */,
+				F9CC454B2036447A003CCD65 /* GravityConfigurable.swift */,
+				F9CC454C2036447A003CCD65 /* Interpolatable.swift */,
+				F9CC454D2036447A003CCD65 /* Physical.swift */,
+				F9CC454E2036447A003CCD65 /* SnapConfigurable.swift */,
+				F9CC454F2036447A003CCD65 /* StepControllable.swift */,
+				F9CC45502036447A003CCD65 /* TimingFunction.swift */,
+				F9CC45512036447A003CCD65 /* TimingSolvable.swift */,
+				F9CC45522036447A003CCD65 /* TimingType.swift */,
+				F9CC45532036447A003CCD65 /* UIDynamicBehavior+Commit.swift */,
+				F9CC45542036447A003CCD65 /* UIView+AnimateBehavior.swift */,
+				F9CC45552036447A003CCD65 /* UIView+Stellar.swift */,
+				F9CC45562036447A003CCD65 /* UnitBezier.swift */,
+				F9CC45572036447A003CCD65 /* Value+Physical.swift */,
+				F9CC45582036447A003CCD65 /* Vectorial.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9CC44F2203625B4003CCD65 /* Build configuration list for PBXNativeTarget "MelodySkyChat" */;
 			buildPhases = (
+				E21CA8B35691A780B380E37A /* [CP] Check Pods Manifest.lock */,
 				F9CC44DC203625B4003CCD65 /* Sources */,
 				F9CC44DD203625B4003CCD65 /* Frameworks */,
 				F9CC44DE203625B4003CCD65 /* Resources */,
+				621A1A5E179738BD8ADC83C3 /* [CP] Embed Pods Frameworks */,
+				D94CB790244B16AB8B88CD6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +268,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		621A1A5E179738BD8ADC83C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MelodySkyChat/Pods-MelodySkyChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Stellar/Stellar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stellar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MelodySkyChat/Pods-MelodySkyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D94CB790244B16AB8B88CD6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MelodySkyChat/Pods-MelodySkyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E21CA8B35691A780B380E37A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MelodySkyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9CC44DC203625B4003CCD65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9CC45652036447B003CCD65 /* DriveAnimateBehaviors.swift in Sources */,
+				F9CC455C2036447B003CCD65 /* AnimationType.swift in Sources */,
+				F9CC45642036447B003CCD65 /* Chainable.swift in Sources */,
+				F9CC455E2036447B003CCD65 /* AttachmentConfigurable.swift in Sources */,
+				F9CC45762036447B003CCD65 /* Value+Physical.swift in Sources */,
+				F9CC455D2036447B003CCD65 /* AnimatorCoordinator.swift in Sources */,
+				F9CC44F620362C9D003CCD65 /* Star.swift in Sources */,
 				F9CC44E6203625B4003CCD65 /* ViewController.swift in Sources */,
+				F9CC456A2036447B003CCD65 /* GravityConfigurable.swift in Sources */,
+				F9CC45592036447B003CCD65 /* AnimationContext.swift in Sources */,
+				F9CC45752036447B003CCD65 /* UnitBezier.swift in Sources */,
+				F9CC455B2036447B003CCD65 /* AnimationStep.swift in Sources */,
+				F9CC45742036447B003CCD65 /* UIView+Stellar.swift in Sources */,
+				F9CC455A2036447B003CCD65 /* AnimationSequence.swift in Sources */,
+				F9CC45702036447B003CCD65 /* TimingSolvable.swift in Sources */,
+				F9CC45672036447B003CCD65 /* DynamicItem.swift in Sources */,
+				F9CC45732036447B003CCD65 /* UIView+AnimateBehavior.swift in Sources */,
+				F9CC45712036447B003CCD65 /* TimingType.swift in Sources */,
+				F9CC45692036447B003CCD65 /* DynamicItemGravity.swift in Sources */,
+				F9CC456F2036447B003CCD65 /* TimingFunction.swift in Sources */,
+				F9CC45682036447B003CCD65 /* DynamicItemBasic.swift in Sources */,
+				F9CC44F820362CD6003CCD65 /* PickMessagesViewController.swift in Sources */,
+				F9CC456D2036447B003CCD65 /* SnapConfigurable.swift in Sources */,
+				F9CC45602036447B003CCD65 /* BasicConfigurable.swift in Sources */,
+				F9CC45772036447B003CCD65 /* Vectorial.swift in Sources */,
+				F9CC45632036447B003CCD65 /* CALayer+Stellar.swift in Sources */,
 				F9CC44E4203625B4003CCD65 /* AppDelegate.swift in Sources */,
+				F9CC45622036447B003CCD65 /* CALayer+DriveAnimationBehaviors.swift in Sources */,
+				F9CC45612036447B003CCD65 /* CALayer+AnimateBehavior.swift in Sources */,
+				F9CC45662036447B003CCD65 /* DynamicItem+Behavior.swift in Sources */,
+				F9CC455F2036447B003CCD65 /* BasicChainable.swift in Sources */,
+				F9CC457920366615003CCD65 /* RoundedButton.swift in Sources */,
+				F9CC45722036447B003CCD65 /* UIDynamicBehavior+Commit.swift in Sources */,
+				F9CC456C2036447B003CCD65 /* Physical.swift in Sources */,
+				F9CC456E2036447B003CCD65 /* StepControllable.swift in Sources */,
+				F9CC456B2036447B003CCD65 /* Interpolatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +497,7 @@
 		};
 		F9CC44F3203625B4003CCD65 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C274EDED1417F58524C9037 /* Pods-MelodySkyChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +513,7 @@
 		};
 		F9CC44F4203625B4003CCD65 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40F92A1984614FC8DBDBD20 /* Pods-MelodySkyChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
